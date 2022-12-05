@@ -1,4 +1,4 @@
-# Ilistei - Listas de Compras
+# ilistei - Listas de Compras
 
 `Análise e Desenvolvimento de Sistemas`
 
