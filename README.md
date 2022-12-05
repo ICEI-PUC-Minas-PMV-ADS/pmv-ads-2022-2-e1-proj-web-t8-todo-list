@@ -1,27 +1,31 @@
-# TÍTULO DO PROJETO
+# Ilistei - Listas de Compras
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto Web Turma 8`
 
-`SEMESTRE`
+`2º/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O presente projeto se trata de uma solução web para criar, salvar e organizar as listas de compras de supermercados. Garantindo assim economia,praticidade e acessibilidade aos usuários.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Gustavo de Abreu Santos
+* Vinicius Henrique Alves Mariano
+* Mateus Silva de Sousa
+* Thiago Barreto Rodrigues
+* Sara Torres de Almeida
+* Isabela Bernardes Viana
+* Hellen Nascimento Castro
+* Alexsander Pimentel Domiciano
 
 ## Orientador
 
-* Nome completo do professor 1
+* Simone de Assis Alves da Silva
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+A aplicação será executada totalmente em ambiente web.
 
 # Documentação
 
