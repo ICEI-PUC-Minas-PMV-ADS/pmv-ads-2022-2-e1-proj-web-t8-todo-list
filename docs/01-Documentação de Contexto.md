@@ -1,4 +1,5 @@
-# Contexto 
+### Documentação de Projeto - iListei
+## Contexto 
 A autogestão é uma habilidade comportamental que tem ganho grande atenção nos últimos tempos. Muito necessária no mundo empresarial, seja pela nova realidade do teletrabalho ou para o incremento da produtividade, o exercício da autonomia e auto-organização permite que o agente executor seja protagonista no processo ao qual está envolvido, mitigando erros e com ganho de eficiência em suas ações por meio da otimização do tempo (ALMEIDA LOPES et al; 2021). 
  
 Assim como algumas habilidades laborais são transpostas para realidade cotidiana, a capacidade de autogestão tem grande aplicação ao usuário comum e possibilita inúmeros benefícios. A ida aos supermercados é um evento corriqueiro na vida de todos os brasileiros e seja por estímulos marqueteiros ou por impulsividade, também é frequente a aquisição de itens não planejados. A falta de organização contribui significativamente para "fuga de dietas", baixa qualidade nutricional ou de produtos apelativos que não atenderão as necessidades reais do usuário além de ocasionar gastos maiores e não previstos frente aos necessários. 
