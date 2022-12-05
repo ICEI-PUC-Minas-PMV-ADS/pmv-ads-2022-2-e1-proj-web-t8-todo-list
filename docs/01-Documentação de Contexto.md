@@ -37,9 +37,14 @@ Definido o público, temos que a ferramenta deve ser acessível permitindo seu u
 
 ## Personas
 <div align="center">
-img src="![BrunoAlan](https://user-images.githubusercontent.com/110849216/205555102-f05394a9-8ff8-4f59-8e2c-4a78040f5c91.jpg)" width="700px" /
+<img src="![BrunoAlan](https://user-images.githubusercontent.com/110849216/205555102-f05394a9-8ff8-4f59-8e2c-4a78040f5c91.jpg)" width="700px" />
 </div>
-
+<div align="center">
+<img src="![TerezaAparecida](https://user-images.githubusercontent.com/110849216/205556073-0c24e01d-7a59-4772-a869-0fc4d02f391a.jpg)" width="700px" />
+</div>
+<div align="center">
+<img src="![PedroFonseca](https://user-images.githubusercontent.com/110849216/205556084-3c20857b-6595-4585-ab34-a3766c9e2c0d.jpg)" width="700px" />
+</div>
 
 ## Histórias de Usuários
 
