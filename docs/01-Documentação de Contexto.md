@@ -1,13 +1,12 @@
-# Introdução
+# Contexto 
+A autogestão é uma habilidade comportamental que tem ganho grande atenção nos últimos tempos. Muito necessária no mundo empresarial, seja pela nova realidade do teletrabalho ou para o incremento da produtividade, o exercício da autonomia e auto-organização permite que o agente executor seja protagonista no processo ao qual está envolvido, mitigando erros e com ganho de eficiência em suas ações por meio da otimização do tempo (ALMEIDA LOPES et al; 2021). 
+ 
+Assim como algumas habilidades laborais são transpostas para realidade cotidiana, a capacidade de autogestão tem grande aplicação ao usuário comum e possibilita inúmeros benefícios. A ida aos supermercados é um evento corriqueiro na vida de todos os brasileiros e seja por estímulos marqueteiros ou por impulsividade, também é frequente a aquisição de itens não planejados. A falta de organização contribui significativamente para "fuga de dietas", baixa qualidade nutricional ou de produtos apelativos que não atenderão as necessidades reais do usuário além de ocasionar gastos maiores e não previstos frente aos necessários. 
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Portanto, é de grande valia a criação e disponibilização de ferramentas que fomentem a prática da autogestão e permitam que o usuário comum tenha uma jornada mais consciente quanto as suas necessidades de consumo nos supermercados. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+A falta de organização e planejamento atrelados a impulsividade são elementos chave para a baixa qualidade do controle orçamentário ao longo da jornada de compras em supermercados. Ainda, é recorrente que itens essenciais sejam esquecidos e com isso a justificativa primordial para o início da jornada de compras perca seu objetivo. Tais condicionantes podem ser evitadas por meio do uso de ferramentas de autogestão, como propõe o presente projeto, minimizando desperdícios e gastos não previstos. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -15,29 +14,36 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
+De forma geral, o objetivo desse trabalho é entregar uma aplicação web que consiga auxiliar usuários a fazerem um check-list dos seus itens de compra em supermercado de forma prática, intuitiva e efetiva.  
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Mais especificamente: 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+1. Apresentar visualmente um rascunho claro dos itens à serem adquiridos;    
+2. Entregar um layout de fácil interação que consiga ser assimilado por diversos públicos e idades;  
+3. Possibilitar que, ao término da compra, o usuário saiba quais itens de fato resolveu adquirir, o valor que gastou e quais itens dispensou. 
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+Com margens de lucro cada vez mais restritas, seja pela aproximação dos fabricantes ao público final facilitando assim o acesso aos bens de consumo, ou pelos altos custos operacionais, os supermercados passaram a desenvolver estratégias próprias para estimular o incremento dos gastos e tempo de permanência dos consumidores em loja. 
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A temática não é nova e inúmeros estudos ao redor do globo já foram desenvolvidos sobre o comportamento do consumidor. É consenso geral e conforme ressaltado por ANGELO, C. F. DE et al; 2003; em seu trabalho: "As compras não planejadas em supermercados: a importância do tempo e da organização da loja na determinação dos gastos.", que o tempo de permanência em loja é diretamente proporcional ao valor gasto pelo consumidor e esse gasto é afetado pela disposição dos produtos. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O comportamento do usuário é, portanto, determinante para sua capacidade de gerar economia. Logo, ao dispor de uma ferramenta própria para realizar o planejamento dos itens que serão adquiridos, ganha-se eficiência de tempo e minimizam-se as chances de que compras não previstas sejam realizadas por impulsividade. 
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
+Embora todas as pessoas possam se beneficiar da ferramenta proposta, que possui aplicação múltipla em diversas temáticas, o foco deste trabalho está voltado para a jornada de consumo em supermercados, dado que são eventos recorrentes e que demandam parte significativa do orçamento familiar e/ou pessoal. 
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Existem, de modo generalista, dois grupos de usuários de características antagônicas que são eles: 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+1. Jovens que vão fazer compras para alguém ( 16 até 25 anos ); 
+2. Adultos e Idosos que farão compras para si ( 25 anos + ); 
+
+Definido o público, temos que a ferramenta deve ser acessível permitindo seu uso adequado dentre os múltiplos perfis etários. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
