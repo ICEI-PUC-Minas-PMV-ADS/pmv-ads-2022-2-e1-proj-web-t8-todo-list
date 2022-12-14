@@ -1,0 +1,728 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f3;
+}
+
+.container {
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16rem;
+}
+
+.whtBoard {
+    background: white;
+    width: 100%;
+    min-width: 60rem;
+    max-width: 60rem;
+    box-shadow: 6px 8px 8px rgba(0,0,0,0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.whtUI {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-width: 430px;
+    max-width: 430px;
+    min-height: 45vh;
+    transform: translateX(3.5rem);
+}
+
+.brandBoard {
+    background: #f32600;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    min-width: 26rem;
+    max-width: 26rem;
+}
+
+.brandSlogan {
+    transform: translateX(6.4rem);
+}
+
+.brand {
+    font-family: 'Oleo Script', cursive;
+    font-style: normal;
+    font-size: 80px;
+    color: white;
+    text-shadow: 8px 10px 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(0.6rem);
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.slogan {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    width: 210px;
+    word-break: break-all;
+    text-align: center;
+    padding-bottom: 9rem;
+}
+
+.wlcmMain /* Bem-vindo */ {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800; 
+    font-size: 28px;
+    color: #575757;
+}
+
+.wlcmSub /* Acesse sua conta... */ {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 16px;
+    color: #7C7C7C;
+}
+
+.txtBoxMail {
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+.txtBoxPswrd {
+    padding-bottom: 1rem;;
+}
+
+input[type=txt] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 16px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    width: 430px;
+    height: 50px;
+    padding: 12px 60px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=password] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 16px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    width: 430px;
+    height: 55px;
+    padding: 12px 60px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=txt]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=txt]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=password]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=password]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+.btnEnter {
+    background: #f32600;
+    min-height: 60px;
+    min-width: 220px;
+    align-self: center;
+    border-color: transparent;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.2s ease-in-out all;
+}
+
+.btnEnter:link {
+    text-decoration: none;
+}
+
+.btnEnter:visited {
+    text-decoration: none;
+}
+
+.btnEnter:hover {
+    opacity: 0.8;
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.btnEnter:active {
+    transform: scale(0.98);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.txtEnter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display:flex;
+    padding-top: 1rem;
+    justify-content: center;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.frgtSignUp {
+    padding-top: 1rem;
+}
+
+.btnSignUp /* Fazer cadastro... */ {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 12px;
+    transform: translateX(2rem);
+    color: #7C7C7C;
+    background: transparent;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btnSignUp:link {
+    text-decoration: none;
+}
+
+.btnSignUp:visited {
+    text-decoration: none;
+}
+
+.btnSignUp:hover {
+    text-decoration: underline #7C7C7C;
+}
+
+.btnSignUp:active {
+    text-decoration: underline #7C7C7C;
+}
+
+.btnFrgtPswrd {
+    padding-left: 2.6rem;
+    padding-right: 4.8rem;
+}
+
+.btnFrgtPswrd /* Esqueceu sua... */ {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 12px;
+    color: #7C7C7C;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btnFrgtPswrd:link {
+    text-decoration: none;
+}
+
+.btnFrgtPswrd:visited {
+    text-decoration: none;
+}
+
+.btnFrgtPswrd:hover {
+    text-decoration: underline #7C7C7C;
+}
+
+.btnFrgtPswrd:active {
+    text-decoration: underline #7C7C7C;
+}
+
+.signup {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+}
+
+.signup_content {
+    width: 50%;
+    background-color: white;
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.2);
+    min-width: 400px;
+    max-width: 400px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.25);
+    opacity: 0;
+    transition: all 0.5s 0.1s;
+}
+
+.signup_header {
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup_txt {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.signup_btn {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #f32600;
+    min-height: 50px;
+    min-width: 130px;
+    padding-top: 0.75rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    display:inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-color: transparent;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.2s ease-in-out all;
+}
+
+.signup_btn:link {
+    text-decoration: none;
+}
+
+.signup_btn:visited {
+    text-decoration: none;
+}
+
+.signup_btn:hover {
+    opacity: 0.8;
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.signup_btn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transform: translateX(-50%);
+}
+
+#signup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#signup:target .signup_content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.signUpMain /* Que bom! */ {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800; 
+    font-size: 22px;
+    color: #575757;
+}
+
+.signUpSub /* Faça aqui seu... */ {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7C7C7C;
+}
+
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(10%);
+}
+
+input[type=frstName] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    height: 45px;
+    width: 20rem;
+    padding: 12px;
+    padding-left: 30px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=lstName] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    height: 45px;
+    width: 20rem;
+    padding: 12px;
+    padding-left: 30px;
+    margin: 10px 0px 10px 0px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=userName] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    height: 45px;
+    width: 20rem;
+    padding: 12px;
+    padding-left: 30px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=userPswrd] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    height: 45px;
+    width: 20rem;
+    padding: 12px;
+    padding-left: 30px;
+    margin: 10px 0px 10px 0px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=frstName]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=frstName]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=lstName]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=lstName]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=userName]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=userName]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=userPswrd]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=userPswrd]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+.frgt {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+}
+
+.frgt_content {
+    width: 50%;
+    background-color: white;
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.2);
+    min-width: 400px;
+    max-width: 400px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.25);
+    opacity: 0;
+    transition: all 0.5s 0.1s;
+}
+
+.frgt_header {
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.frgt_txt {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.frgt_btn {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #f32600;
+    min-height: 50px;
+    min-width: 130px;
+    padding-top: 0.75rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    display:inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-color: transparent;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.2s ease-in-out all;
+}
+
+.frgt_btn:link {
+    text-decoration: none;
+}
+
+.frgt_btn:visited {
+    text-decoration: none;
+}
+
+.frgt_btn:hover {
+    opacity: 0.8;
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.frgt_btn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transform: translateX(-50%);
+}
+
+#frgt:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#frgt:target .frgt_content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.frgtMain /* Que bom! */ {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800; 
+    font-size: 22px;
+    color: #575757;
+}
+
+.frgtSub /* Faça aqui seu... */ {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7C7C7C;
+}
+
+.frgtForm {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(10%);
+}
+
+input[type=frstName] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    height: 45px;
+    width: 20rem;
+    padding: 12px;
+    padding-left: 30px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=lstName] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    height: 45px;
+    width: 20rem;
+    padding: 12px;
+    padding-left: 30px;
+    margin: 10px 0px 10px 0px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=userName] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    height: 45px;
+    width: 20rem;
+    padding: 12px;
+    padding-left: 30px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=newPswrd] {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 14px;
+    color: #7C7C7C;
+    opacity: 0.8;
+    height: 45px;
+    width: 20rem;
+    padding: 12px;
+    padding-left: 30px;
+    margin: 10px 0px 10px 0px;
+    background: #eeeeee;
+    border: transparent;
+    outline: none;
+    transition: 0.2s ease all;
+}
+
+input[type=frstName]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=frstName]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=lstName]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=lstName]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=userName]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=userName]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=newPswrd]:hover {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+input[type=newPswrd]:focus {
+    border-bottom: 2px solid rgba(124, 124, 124, 0.8);
+    opacity: 0.8;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 12px;
+    color: #7C7C7C;
+    text-align: center;
+}

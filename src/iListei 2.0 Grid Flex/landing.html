@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="iListei - Lista de compras">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Gustavo Santos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iListei</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="main">
+        <div class="container">
+            <div class="whtBoard"> <!--Usar section?-->
+                <div class="brandBoard">
+                    <div class="brandSlogan">
+                        <div class="brand">iListei</div> <!--Usar h1, h..., p?-->
+                        <div class="slogan">O jeito fácil de se organizar.</div>
+                    </div>
+                </div>
+                <div class="whtUI">
+                    <div class="wlcm">
+                        <div class="wlcmMain">Bem-vindo de volta!</div>
+                        <div class="wlcmSub">Acesse sua conta agora mesmo.</div>
+                    </div>
+                    <div class="txtBoxMail">
+                        <form>
+                            <input type="txt" id="user" name="user" placeholder="Email">
+                        </form>
+                    </div>
+                    <div class="txtBoxPswrd">
+                        <form>
+                            <input type="password" id="pswrd" name="pswrd" placeholder="Senha">
+                        </form>
+                    </div>
+                    <a class="btnEnter">
+                        <div class="txtEnter">Entrar</div> <!--Em objetos separados mantém as medidas ao alterar a escala.-->
+                    </a>
+                    <div class="frgtSignUp">
+                        <a href="#frgt" class="btnFrgtPswrd">Esqueceu sua senha?</a>
+                        <a href="#signup" class="btnSignUp">Quero me cadastrar.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="frgt" id="frgt">
+        <div class="frgt_content">
+            <div class="frgt_header">
+                <div class="frgtMain">Esqueceu sua senha?</div>
+                <div class="frgtSub">Cadastre uma nova.</div>
+            </div>
+            <div class="frgtForm">
+                <form>
+                    <input type="frstName" id="frstName" name="frstName" placeholder="Nome">
+                    <input type="lstName" id="lstName" name="lstName" placeholder="Sobrenome">
+                    <input type="userName" id="userName" name="userName" placeholder="Email">
+                    <input type="newPswrd" id="newPswrd" name="newPswrd" placeholder="Nova Senha">
+                </form>
+            </div>
+            <a href="#main" class="frgt_btn" id="frgt_btn">Alterar</a>
+        </div>
+    </div>
+
+    <div class="signup" id="signup">
+        <div class="signup_content">
+            <div class="signup_header">
+                <div class="signUpMain">Que bom que você chegou!</div>
+                <div class="signUpSub">Faça aqui o seu cadastro.</div>
+            </div>
+            <div class="signUpForm">
+                <form>
+                    <input type="frstName" id="frstName" name="frstName" placeholder="Nome">
+                    <input type="lstName" id="lstName" name="lstName" placeholder="Sobrenome">
+                    <input type="userName" id="userName" name="userName" placeholder="Email">
+                    <input type="userPswrd" id="userPswrd" name="userPswrd" placeholder="Senha">
+                </form>
+            </div>
+            <a href="#main" class="signup_btn" id="signup_btn">Cadastrar</a>
+        </div>
+    </div>
+
+
+
+</body>
+<footer>Copyright © 2022 - Gustavo Santos. All rights reserved.</footer>
+</html>
